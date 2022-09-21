@@ -26,8 +26,8 @@ public class Exercise06_23 {
 		
 		// loop through the string index to find occurences of a character
 		for (int i = 0; i < str.length(); i++) {
-			if (a == str.charAt(i))
-				count ++;
+		    if (a == str.charAt(i))
+	  	        count ++;
 		}
 		return count;
 	}
